@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-RemotePushService-20170505055609.mdf;Initial Catalog=aspnet-RemotePushService-20170505055609;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Тоша\\Desktop\\Проект\\Сервер\\RemotePush_Runtime\(1\)\\RemotePushService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="UserContext-Web.config Connection String" description="UserContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=UserContext-20170514153450; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|UserContext-20170514153450.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Тоша\\Desktop\\Проект\\Сервер\\RemotePush_Runtime\(1\)\\RemotePushService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UserContext']/@connectionString" />
+  </parameter>
+</parameters>
