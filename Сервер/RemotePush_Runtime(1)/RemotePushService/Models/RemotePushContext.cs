@@ -23,7 +23,8 @@ namespace RemotePushService.Models
         } 
 
         public DbSet<TodoItem> TodoItems { get; set; }
-        public DbSet<UserItem> UserItems { get; set; }
+        //public DbSet<UserItem> UserItems { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -32,7 +33,7 @@ namespace RemotePushService.Models
                     "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
         }
 
-        public System.Data.Entity.DbSet<RemotePushService.DataObjects.SupermarketItem> SupermarketItems { get; set; }
+        //public System.Data.Entity.DbSet<RemotePushService.DataObjects.SupermarketItem> SupermarketItems { get; set; }
     }
 
 }

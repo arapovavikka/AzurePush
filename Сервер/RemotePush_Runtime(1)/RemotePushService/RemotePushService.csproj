@@ -155,7 +155,6 @@
     <Compile Include="Controllers\ListenerController.cs" />
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="Controllers\UserItemsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DataObjects\ProductItem.cs" />
     <Compile Include="DataObjects\SupermarketItem.cs" />

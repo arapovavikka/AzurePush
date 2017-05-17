@@ -135,9 +135,9 @@ namespace RemotePush
             // Get the sync table instance to use to store TodoItem rows.
             todoTable = client.GetSyncTable<ToDoItem>();
 #else
-            userTable = client.GetTable<UserItem>();
-            //todoTable = client.GetTable<ToDoItem>();
-            var r = await client.InvokeApiAsync("testpm", HttpMethod.Get, null);
+            //userTable = client.GetTable<UserItem>();
+            todoTable = client.GetTable<ToDoItem>();
+            //var r = await client.InvokeApiAsync("testpm", HttpMethod.Get, null);
 
 #endif
 
@@ -149,7 +149,7 @@ namespace RemotePush
             listViewToDo.Adapter = adapter;
 
             // Load the items from the mobile app backend.
-            //OnRefreshItemsSelected();
+            OnRefreshItemsSelected();
 
            
         }

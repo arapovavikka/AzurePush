@@ -75,15 +75,15 @@ namespace RemotePushService
 
 
 
-            List<UserItem> userItems = new List<UserItem>
-            {
-                new UserItem { Id = Guid.NewGuid().ToString(), Name = "Oleg", Surname = "Elonyshev" }
-            };
+            //List<UserItem> userItems = new List<UserItem>
+            //{
+            //    new UserItem { Id = Guid.NewGuid().ToString(), Name = "Oleg", Surname = "Elonyshev" }
+            //};
 
-            foreach (UserItem userItem in userItems)
-            {
-                context.Set<UserItem>().Add(userItem);
-            }
+            //foreach (UserItem userItem in userItems)
+            //{
+            //    context.Set<UserItem>().Add(userItem);
+            //}
 
             base.Seed(context);
         }
